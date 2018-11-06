@@ -1,12 +1,12 @@
 <template>
-<div id="article" class="container">
+  <div id="article" class="container">
     <div class="page-header">
       <h1>Firebase and Vue</h1>
     </div>
     <div class="card">
       <div class="card-header">
         <h3>Lista de articulos</h3>
-      </div><!--
+      </div>
       <div class="card-body">
         <table class="table table-striped">
           <thead>
@@ -31,15 +31,16 @@
             </tr>
           </tbody>
         </table>
-      </div>-->
+      </div>
     </div>
   </div>
+
 </template>
 
 <script>
   import articlesRef from '../main';
   export default {
-    name: 'article',
+    name: 'container',
       firebase: {
         articles: articlesRef
       },
